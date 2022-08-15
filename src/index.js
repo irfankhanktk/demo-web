@@ -9,11 +9,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import CustomNavbar from "./components/Navbar";
 import './components/styles.css';
+import './bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomNavbar/>
     <BrowserRouter>
+    <CustomNavbar/>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

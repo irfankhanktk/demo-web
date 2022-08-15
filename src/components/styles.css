@@ -23,3 +23,10 @@
 @keyframes mymove {
   50% {transform: rotate(180deg);}
 }
+/* .active {
+  background-color: aqua;
+  }
+  .inactive {
+    background-color:transparent;
+    color: blue;
+    } */
