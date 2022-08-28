@@ -26,22 +26,12 @@ const CustomNavbar = () => {
             
             <Nav.Link><i className="fa-brands fa-apple"></i> Cart</Nav.Link>
             </LinkContainer>
+            <LinkContainer to={'/chat'}>
+            <Nav.Link>Chat</Nav.Link>
+            </LinkContainer> 
             <LinkContainer to={'/about'}>
             <Nav.Link>About</Nav.Link>
-            </LinkContainer>
-           
-            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <LinkContainer to={'/1'}>
-              <NavDropdown.Item >Action</NavDropdown.Item>
-              </LinkContainer>
-              <LinkContainer to={'/2'}>
-              <NavDropdown.Item>Another action</NavDropdown.Item>
-              </LinkContainer>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
-          
+            </LinkContainer>    
           </Nav>
         </Navbar.Collapse>
       </Container>

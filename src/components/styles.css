@@ -23,6 +23,44 @@
 @keyframes mymove {
   50% {transform: rotate(180deg);}
 }
+.body{
+  height: 100hv;
+  width: 100wv;
+}
+.chat-container{
+  background-color:black;
+  min-height: 84.7vh;
+  width: 100vw;
+}
+.chat-header{
+  text-align: center;
+  font-size:2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.chat-body{
+  height:50hv;
+  background-color: black;
+  padding: 20px;
+  overflow: scroll;
+  
+}
+.chat-footer{
+  display:flex;
+  background-color: brown;
+  padding: 20px,50px;
+  margin-bottom: 20px;
+}
+.chat-input{
+  border-radius:1ch;
+  border-color: blue;
+  width: 100%;
+}
+.chat-msg{
+  background-color:burlywood;
+  max-width: 40vw;
+  padding: 10px 4px;
+  border-radius: 20px;
+}
 /* .active {
   background-color: aqua;
   }

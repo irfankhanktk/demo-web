@@ -11,6 +11,7 @@ import About from "./components/About";
 import FormDemo from "./components/FormDemo";
 import Login from "./components/auth/Login";
 import useToken from "./components/customHooks/useToken";
+import Chat from "./components/Chat";
  
 export default function App() {
   const { token, setToken } = useToken('abc');
@@ -20,11 +21,12 @@ export default function App() {
   }
 
   return (
-    <>
+    <div className="body">
       <Routes path="/">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
-    </>
+    </div>
   );
 }
